@@ -1,0 +1,19 @@
+class CountDigit
+{
+ 
+    
+    public static void main(String[] args)
+    {
+        long n = 345289467;
+		int count = 0;
+        while (n != 0) 
+		{
+            n = n / 10;
+            ++count;
+        }
+		System.out.print("Number of digits : "
+                         + count);
+        
+    }
+        
+    }
